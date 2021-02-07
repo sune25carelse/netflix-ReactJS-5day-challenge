@@ -1,7 +1,6 @@
 .profileScreen {
   height: 100vh;
   color: white;
-  background-color: #111;
 }
 
 .profileScreen__body {
@@ -16,18 +15,24 @@
 
 .profileScreen__info {
   display: flex;
-  margin-left: 25px;
-  flex: 1;
-}
-
-.profileScreen__info > img {
-  height: 100px;
 }
 
 .profileScreen__details {
   color: white;
   margin-left: 25px;
   flex: 1;
+}
+
+.profileScreen__body > h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+
+.profileScreen__info > img {
+  height: 100px;
 }
 
 .profileScreen__details > h2 {
@@ -60,13 +65,4 @@
 .profileScreen__plans > h3 {
   border-bottom: 1px solid #282c2d;
   padding-bottom: 10px;
-}
-
-.profileScreen__body > h1 {
-  font-size: 60px;
-  font-weight: 400;
-  color: #fff;
-  border-bottom: 1px solid #282c2d;
-  margin-bottom: 20px;
-  margin-right: 80px;
 }
